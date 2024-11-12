@@ -65,5 +65,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['id'])) {
         <button type="submit">Salvează modificările</button>
         <button type="button" onclick="window.location.href='admin.php'">Inapoi</button>
     </form>
+    <script src="js/logged.js"></script>
+<script>
+    admin();
+    </script>
 </body>
 </html>

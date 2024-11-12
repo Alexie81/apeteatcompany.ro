@@ -21,6 +21,10 @@
 	<meta name="twitter:card" content="summary_large_image">
 
 	<!-- / Yoast SEO plugin. -->
+     <script src="js/logged.js"></script>
+     <script>
+        logged();
+        </script>
 
 
 <script type="application/javascript" id="pys-version-script">console.log('PixelYourSite Free version 9.5.5');</script>

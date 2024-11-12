@@ -22,9 +22,15 @@ function logout() {
 
 function admin() {
     if(sessionStorage.getItem("admin") === "true") {
-        alert("You are an admin!");
+        console.log("Admin!");
     } else {
         alert("You are not an admin!");
         logout();
+    }
+}
+
+function logged() {
+    if(sessionStorage.getItem("logged")) {
+        window.location.href="home.html";
     }
 }

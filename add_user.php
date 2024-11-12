@@ -47,5 +47,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <button type="submit">Adaugă Utilizator</button>
         <button type="button" onclick="window.location.href='admin.php'">Inapoi</button>
     </form>
+    <script src="js/logged.js"></script>
+<script>
+    admin();
+    </script>
 </body>
 </html>
