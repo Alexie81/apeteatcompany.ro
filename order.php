@@ -2,6 +2,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" href="https://www.apeteat.ro/app/themes/apeteat/public/images/favicon.cec87b.svg">
+    <script src="js/logged.js"></script>
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
 <script type="text/javascript" async="" src="https://analytics.tiktok.com/i18n/pixel/static/identify_7bf75739.js"></script><script type="text/javascript" async="" src="https://analytics.tiktok.com/i18n/pixel/static/main.MWQ2ODQwNTg2MQ.js" data-id="CLOT79JC77UEPOBAV6M0"></script><script type="text/javascript" async="" src="https://www.googletagmanager.com/gtag/js?id=G-K83MLXB7WF&amp;l=dataLayer&amp;cx=c&amp;gtm=45He4b70v9179625218za200"></script><script async="" src="//www.googletagmanager.com/gtag/js?id=G-K83MLXB7WF"></script><script type="text/javascript" async="" src="https://www.googletagmanager.com/gtag/js?id=G-Q18W8XPHHS&amp;l=dataLayer&amp;cx=c&amp;gtm=45He4b70v9179625218za200"></script><script type="text/javascript" async="" src="https://analytics.tiktok.com/i18n/pixel/events.js?sdkid=CLOT79JC77UEPOBAV6M0&amp;lib=ttq"></script><script async="" src="https://chimpstatic.com/mcjs-connected/js/users/8ae7e048868f4254cfbd929aa/140c19d26767dcad15473a049.js"></script><script src="https://connect.facebook.net/signals/config/1520279285182302?v=next&amp;r=stable&amp;domain=www.apeteat.ro&amp;hme=872f04a0547459b3285cb03b0d7a47bfde40628f4b386809918a621e2688602f&amp;ex_m=70%2C121%2C107%2C111%2C61%2C4%2C100%2C69%2C16%2C97%2C89%2C51%2C54%2C172%2C175%2C187%2C183%2C184%2C186%2C29%2C101%2C53%2C77%2C185%2C167%2C170%2C180%2C181%2C188%2C131%2C41%2C189%2C190%2C34%2C143%2C15%2C50%2C195%2C194%2C133%2C18%2C40%2C1%2C43%2C65%2C66%2C67%2C71%2C93%2C17%2C14%2C96%2C92%2C91%2C108%2C52%2C110%2C39%2C109%2C30%2C94%2C26%2C168%2C171%2C140%2C86%2C56%2C84%2C33%2C73%2C0%2C95%2C32%2C28%2C82%2C83%2C88%2C47%2C46%2C87%2C37%2C11%2C12%2C13%2C6%2C7%2C25%2C22%2C23%2C57%2C62%2C64%2C75%2C102%2C27%2C76%2C9%2C8%2C80%2C48%2C21%2C104%2C103%2C105%2C98%2C10%2C20%2C3%2C38%2C74%2C19%2C5%2C90%2C81%2C44%2C35%2C85%2C2%2C36%2C63%2C42%2C106%2C45%2C79%2C68%2C112%2C60%2C59%2C31%2C99%2C58%2C55%2C49%2C78%2C72%2C24%2C113%2C158%2C225%2C226%2C224%2C179%2C138%2C201%2C200%2C202%2C207%2C208%2C209%2C205%2C197%2C132%2C163%2C196%2C198%2C122%2C157%2C145%2C151%2C129%2C233%2C116%2C127%2C234%2C165%2C119%2C236%2C166%2C136%2C123%2C154%2C148%2C193%2C114%2C128" async=""></script><script src="https://connect.facebook.net/signals/config/3643034682635913?v=next&amp;r=stable&amp;domain=www.apeteat.ro&amp;hme=872f04a0547459b3285cb03b0d7a47bfde40628f4b386809918a621e2688602f&amp;ex_m=70%2C121%2C107%2C111%2C61%2C4%2C100%2C69%2C16%2C97%2C89%2C51%2C54%2C172%2C175%2C187%2C183%2C184%2C186%2C29%2C101%2C53%2C77%2C185%2C167%2C170%2C180%2C181%2C188%2C131%2C41%2C189%2C190%2C34%2C143%2C15%2C50%2C195%2C194%2C133%2C18%2C40%2C1%2C43%2C65%2C66%2C67%2C71%2C93%2C17%2C14%2C96%2C92%2C91%2C108%2C52%2C110%2C39%2C109%2C30%2C94%2C26%2C168%2C171%2C140%2C86%2C56%2C84%2C33%2C73%2C0%2C95%2C32%2C28%2C82%2C83%2C88%2C47%2C46%2C87%2C37%2C11%2C12%2C13%2C6%2C7%2C25%2C22%2C23%2C57%2C62%2C64%2C75%2C102%2C27%2C76%2C9%2C8%2C80%2C48%2C21%2C104%2C103%2C105%2C98%2C10%2C20%2C3%2C38%2C74%2C19%2C5%2C90%2C81%2C44%2C35%2C85%2C2%2C36%2C63%2C42%2C106%2C45%2C79%2C68%2C112%2C60%2C59%2C31%2C99%2C58%2C55%2C49%2C78%2C72%2C24%2C113" async=""></script><script src="https://connect.facebook.net/signals/plugins/openbridge3.js?v=next" async=""></script><script async="" src="https://connect.facebook.net/en_US/fbevents.js?v=next"></script><script async="" src="https://www.googletagmanager.com/gtm.js?id=GTM-T48HWKGH"></script><script id="cookieyes" type="text/javascript" src="https://cdn-cookieyes.com/client_data/a7c76a0824d2a2d223504307/script.js"></script><script src="https://cdn-cookieyes.com/client_data/a7c76a0824d2a2d223504307/banner.js" async="" id="cookieyes-banner"></script>    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
                 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -131,71 +132,78 @@ src="https://www.facebook.com/tr?id=3643034682635913&ev=PageView&noscript=1" />
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T48HWKGH"
                       height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
-<nav class="navbar">
-    <div class="navbar-logo">
-        <a href="https://www.apeteat.ro/">
-            <img src="https://www.apeteat.ro/app/themes/apeteat/public/images/logo.bea222.svg" alt="ApetEat">
+                      <nav class="navbar">
+      <div class="navbar-logo">
+        <a href="#">
+          <img src="https://www.apeteat.ro/app/themes/apeteat/public/images/logo.bea222.svg" alt="ApetEat">
         </a>
-    </div>
-
-            <nav class="nav-primary" aria-label="Navigation">
-            <div class="menu-navigation-container"><ul id="menu-navigation" class="navbar-links"><li id="menu-item-93" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-93"><a href="https://www.apeteat.ro/meniuri/">Meniuri</a></li>
-<li id="menu-item-88" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-88"><a href="/#despre-apeteat">Despre noi</a></li>
-<li id="menu-item-89" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-89"><a href="/#contact">Contact</a></li>
-</ul></div>
-        </nav>
-    
-    <div class="navbar-login-checkout">
-                    <a class="login-button" href="https://www.apeteat.ro/login/">Login</a>
-                    <div class="cart-container" title="Cos de cumparaturi">
-                <a href="https://www.apeteat.ro/cart/">
-                    <img class="cart" src="https://www.apeteat.ro/app/themes/apeteat/public/images/cos.c5e731.svg" alt="Cos de cumparaturi">
-                </a>
-                            </div>
-
-    </div>
-    <div class="navbar-mobile">
+      </div>
+      <nav class="nav-primary" aria-label="Navigation">
+        <div class="menu-navigation-container">
+          <ul id="menu-navigation" class="navbar-links">
+            <li id="menu-item-93" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-93">
+              <a href="meniuri.html">Meniuri</a>
+            </li>
+            <li id="menu-item-88" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-88">
+              <a href="#despre-apeteat" aria-current="page">Despre noi</a>
+            </li>
+            <li id="menu-item-89" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-89">
+              <a href="#contact" aria-current="page">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div class="navbar-login-checkout">
+        <a class="login-button" onclick="logout()">Logout</a>
+        <!-- <div class="cart-container" title="Cos de cumparaturi">
+          <a href="https://www.apeteat.ro/cart/">
+            <img class="cart" src="https://www.apeteat.ro/app/themes/apeteat/public/images/cos.c5e731.svg" alt="Cos de cumparaturi">
+          </a>
+        </div> -->
+      </div>
+      <div class="navbar-mobile">
         <div class="navbar-mobile-row">
-            <img src="https://www.apeteat.ro/app/themes/apeteat/public/images/home-icon.6f8181.svg" alt="Home Icon">
-            <a class="navbar-mobile-link" href="https://www.apeteat.ro/">Acasă</a>
+          <img src="https://www.apeteat.ro/app/themes/apeteat/public/images/home-icon.6f8181.svg" alt="Home Icon">
+          <a class="navbar-mobile-link" href="#">Acasă</a>
+        </div>
+        
+        <!-- <div class="navbar-mobile-row">
+          <img src="https://www.apeteat.ro/app/themes/apeteat/public/images/cos-galben-icon.ea9623.svg" alt="Checkout Icon">
+          <a class="navbar-mobile-link" href="https://www.apeteat.ro/cart/">Coș</a>
+        </div> -->
+        <div class="navbar-mobile-row">
+          <img src="https://www.apeteat.ro/app/themes/apeteat/public/images/contact-icon.a6a747.svg" alt="Contact Icon">
+          <a class="navbar-mobile-link" href="#contact">Contact</a>
         </div>
         <div class="navbar-mobile-row">
-            <img src="https://www.apeteat.ro/app/themes/apeteat/public/images/cont-icon.e3a402.svg" alt="Login Icon">
-                            <a class="navbar-mobile-link" href="https://www.apeteat.ro/login/">Login</a>
-                    </div>
-        <div class="navbar-mobile-row">
-            <img src="https://www.apeteat.ro/app/themes/apeteat/public/images/cos-galben-icon.ea9623.svg" alt="Checkout Icon">
-            <a class="navbar-mobile-link" href="https://www.apeteat.ro/cart/">Coș</a>
+          <img src="https://www.apeteat.ro/app/themes/apeteat/public/images/meniuri-icon.c761a7.svg" alt="Menus Icon">
+          <a class="navbar-mobile-link" href="meniuri.html">Meniuri</a>
         </div>
         <div class="navbar-mobile-row">
-            <img src="https://www.apeteat.ro/app/themes/apeteat/public/images/contact-icon.a6a747.svg" alt="Contact Icon">
-            <a class="navbar-mobile-link" href="#contact">Contact</a>
+          <img src="https://www.apeteat.ro/app/themes/apeteat/public/images/cont-icon.e3a402.svg" alt="Login Icon">
+          <a class="navbar-mobile-link" onclick="logout()">Logout</a>
         </div>
-        <div class="navbar-mobile-row">
-            <img src="https://www.apeteat.ro/app/themes/apeteat/public/images/meniuri-icon.c761a7.svg" alt="Menus Icon">
-            <a class="navbar-mobile-link" href="https://www.apeteat.ro/meniuri/">Meniuri</a>
-        </div>
-        <div class="navbar-mobile-row">
-            <svg class="w-[33px] h-[33px] text-apeteat-yellow" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 18">
-                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M6.143 1H1.857A.857.857 0 0 0 1 1.857v4.286c0 .473.384.857.857.857h4.286A.857.857 0 0 0 7 6.143V1.857A.857.857 0 0 0 6.143 1Zm10 0h-4.286a.857.857 0 0 0-.857.857v4.286c0 .473.384.857.857.857h4.286A.857.857 0 0 0 17 6.143V1.857A.857.857 0 0 0 16.143 1Zm-10 10H1.857a.857.857 0 0 0-.857.857v4.286c0 .473.384.857.857.857h4.286A.857.857 0 0 0 7 16.143v-4.286A.857.857 0 0 0 6.143 11Zm10 0h-4.286a.857.857 0 0 0-.857.857v4.286c0 .473.384.857.857.857h4.286a.857.857 0 0 0 .857-.857v-4.286a.857.857 0 0 0-.857-.857Z"></path>
-            </svg>
-            <a class="navbar-mobile-link" href="/produse-meniu">Produse Meniu</a>
-        </div>
+        <!-- <div class="navbar-mobile-row">
+          <svg class="w-[33px] h-[33px] text-apeteat-yellow" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 18">
+            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M6.143 1H1.857A.857.857 0 0 0 1 1.857v4.286c0 .473.384.857.857.857h4.286A.857.857 0 0 0 7 6.143V1.857A.857.857 0 0 0 6.143 1Zm10 0h-4.286a.857.857 0 0 0-.857.857v4.286c0 .473.384.857.857.857h4.286A.857.857 0 0 0 17 6.143V1.857A.857.857 0 0 0 16.143 1Zm-10 10H1.857a.857.857 0 0 0-.857.857v4.286c0 .473.384.857.857.857h4.286A.857.857 0 0 0 7 16.143v-4.286A.857.857 0 0 0 6.143 11Zm10 0h-4.286a.857.857 0 0 0-.857.857v4.286c0 .473.384.857.857.857h4.286a.857.857 0 0 0 .857-.857v-4.286a.857.857 0 0 0-.857-.857Z"></path>
+          </svg>
+          <a class="navbar-mobile-link" href="/produse-meniu">Produse Meniu</a>
+        </div> -->
         <div class="social-links">
-            <a href="https://www.facebook.com/ApetEatRestaurant/">
-                <img src="https://www.apeteat.ro/app/themes/apeteat/public/images/facebook-icon-yellow.8eb9b0.svg" alt="Facebook Icon">
-            </a>
-            <a href="https://www.instagram.com/apeteat.ro/">
-                <img src="https://www.apeteat.ro/app/themes/apeteat/public/images/instagram-icon-yellow.141617.svg" alt="Instagram Icon">
-            </a>
+          <a href="https://www.facebook.com/ApetEatRestaurant/">
+            <img src="https://www.apeteat.ro/app/themes/apeteat/public/images/facebook-icon-yellow.8eb9b0.svg" alt="Facebook Icon">
+          </a>
+          <a href="https://www.instagram.com/apeteat.ro/">
+            <img src="https://www.apeteat.ro/app/themes/apeteat/public/images/instagram-icon-yellow.141617.svg" alt="Instagram Icon">
+          </a>
         </div>
-    </div>
-    <div class="hamburger">
+      </div>
+      <div class="hamburger">
         <span class="bar1"></span>
         <span class="bar2"></span>
         <span class="bar3"></span>
-    </div>
-</nav>
+      </div>
+    </nav>
 
 <main id="main" class="main">
         
@@ -1260,58 +1268,73 @@ src="https://www.facebook.com/tr?id=3643034682635913&ev=PageView&noscript=1" />
 
 
 <footer class="container-footer" id="contact">
-    <div class="images-column">
+      <div class="images-column">
         <img class="logo-footer" src="https://www.apeteat.ro/app/themes/apeteat/public/images/logo.bea222.svg" alt="Logo" width="289" height="128">
         <div class="container-social-icons">
-            <a href="https://www.facebook.com/ApetEat.ro" target="_blank" title="Facebook ApetEatRestaurant">
-                <img src="https://www.apeteat.ro/app/themes/apeteat/public/images/facebook-icon-white.660f32.svg" alt="Instagram Icon" width="59" height="59">
-            </a>
-            <a href="https://www.instagram.com/apeteat.ro/" target="_blank" title="Instagram apeteat.ro">
-                <img src="https://www.apeteat.ro/app/themes/apeteat/public/images/instagram-icon-white.2cb631.svg" alt="Instagram Icon" width="59" height="59">
-            </a>
+          <a href="https://www.facebook.com/ApetEat.ro" target="_blank" title="Facebook ApetEatRestaurant">
+            <img src="https://www.apeteat.ro/app/themes/apeteat/public/images/facebook-icon-white.660f32.svg" alt="Instagram Icon" width="59" height="59">
+          </a>
+          <a href="https://www.instagram.com/apeteat.ro/" target="_blank" title="Instagram apeteat.ro">
+            <img src="https://www.apeteat.ro/app/themes/apeteat/public/images/instagram-icon-white.2cb631.svg" alt="Instagram Icon" width="59" height="59">
+          </a>
         </div>
         <a href="https://anpc.ro/ce-este-sal/" target="_blank" title="ANPC">
-            <img class="anpc-litigii" src="https://www.apeteat.ro/app/themes/apeteat/public/images/ANPC.54da62.svg" alt="ANPC" width="259" height="64">
+          <img class="anpc-litigii" src="https://www.apeteat.ro/app/themes/apeteat/public/images/ANPC.54da62.svg" alt="ANPC" width="259" height="64">
         </a>
         <a href="https://ec.europa.eu/consumers/odr/main/index.cfm?event=main.home2.show&amp;lng=RO" target="_blank" title="Litigii">
-            <img class="anpc-litigii" src="https://www.apeteat.ro/app/themes/apeteat/public/images/litigii.a28bde.svg" alt="Litigii" width="259" height="64">
+          <img class="anpc-litigii" src="https://www.apeteat.ro/app/themes/apeteat/public/images/litigii.a28bde.svg" alt="Litigii" width="259" height="64">
         </a>
-    </div>
-    <div class="content-column contact">
+      </div>
+      <div class="content-column contact">
         <h1 class="title-footer">CONTACT</h1>
         <section class="widget block-2 widget_block">
-<ul>
-<li><a href="mailto:vesti@apeteat.ro">vesti@apeteat.ro</a></li>
-
-
-
-<li>Strada General Athanasie<br>Enescu 7, București 012174</li>
-
-
-
-<li>Delivery: <a href="tel:0764503197" data-type="tel" data-id="tel:0764503197">0764 503 197</a><br>L-V 6:00-12:00</li>
-
-
-
-<li>Locatie: <a href="tel:0748116356">0748 116 356</a><br>L-V 7:00-18:00</li>
-</ul>
-</section>    </div>
-    <div class="content-column apeteat">
+          <ul>
+            <li>
+              <a href="mailto:vesti@apeteat.ro">vesti@apeteat.ro</a>
+            </li>
+            <li>Strada General Athanasie <br>Enescu 7, București 012174 </li>
+            <li>Delivery: <a href="tel:0764503197" data-type="tel" data-id="tel:0764503197">0764 503 197</a>
+              <br>L-V 6:00-12:00
+            </li>
+            <li>Locatie: <a href="tel:0748116356">0748 116 356</a>
+              <br>L-V 7:00-18:00
+            </li>
+          </ul>
+        </section>
+      </div>
+      <div class="content-column apeteat">
         <h1 class="title-footer">APETEAT</h1>
-        <div class="menu-footer-nav-container"><ul id="menu-footer-nav" class="footer-apeteat"><li id="menu-item-933" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-933"><a href="https://www.apeteat.ro/meniuri/">Meniuri</a></li>
-<li id="menu-item-936" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-936"><a href="/produse-meniu/">Produse Meniu</a></li>
-<li id="menu-item-934" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-934"><a href="/#despre-apeteat">Despre Noi</a></li>
-<li id="menu-item-935" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-935"><a href="/#contact">Contact</a></li>
-</ul></div>
-    </div>
-    <div class="content-column legal">
+        <div class="menu-footer-nav-container">
+          <ul id="menu-footer-nav" class="footer-apeteat">
+            <li id="menu-item-933" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-933">
+              <a href="meniuri.html">Meniuri</a>
+            </li>
+            <li id="menu-item-934" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-934">
+              <a href="#despre-apeteat" aria-current="page">Despre Noi</a>
+            </li>
+            <li id="menu-item-935" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-935">
+              <a href="#contact" aria-current="page">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="content-column legal">
         <h1 class="title-footer">LEGAL</h1>
-        <div class="menu-footer-legal-container"><ul id="menu-footer-legal" class="footer-legal"><li id="menu-item-569" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-569"><a rel="privacy-policy" href="https://www.apeteat.ro/politica-de-confidentialitate/">Politica de confidentialitate</a></li>
-<li id="menu-item-688" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-688"><a href="https://www.apeteat.ro/politica-de-cookie/">Politica de cookie</a></li>
-<li id="menu-item-570" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-570"><a href="https://www.apeteat.ro/termeni-si-conditii/">Termeni si Condiții</a></li>
-</ul></div>
-    </div>
-</footer>
+        <div class="menu-footer-legal-container">
+          <ul id="menu-footer-legal" class="footer-legal">
+            <li id="menu-item-569" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-569">
+              <a rel="privacy-policy" href="politica-de-confidentialitate.html">Politica de confidentialitate</a>
+            </li>
+            <li id="menu-item-688" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-688">
+              <a href="politica-de-cookie.html">Politica de cookie</a>
+            </li>
+            <li id="menu-item-570" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-570">
+              <a href="termeni-si-conditii.html">Termeni si Condiții</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
 
 <div id="alertModal" aria-hidden="true" data-modal-target="alertModal" tabindex="-1" class="fixed top-0 left-0 right-0 hidden p-4 overflow-x-hidden overflow-y-auto md:inset-0 h-[calc(100%-1rem)] max-h-full z-[9999] justify-center items-center">
     <div class="relative w-full max-w-md max-h-full">
