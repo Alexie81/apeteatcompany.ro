@@ -336,7 +336,7 @@
             function() {
                 let e, t = arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : 1, a = $(".choose-button.selected").data("dates");
                 e = a || u.selectedDates.map((function(e) {
-                    console.log(e);
+                    console.log(c,e);
                     return e.getFullYear() + "-" + (e.getMonth() + 1).toString().padStart(2, "0") + "-" + e.getDate().toString().padStart(2, "0")
                 }
                 

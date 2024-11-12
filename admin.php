@@ -25,7 +25,7 @@
           <a class="nav-link" href="products.php">Products</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Product Calendar</a>
+          <a class="nav-link" href="product_calendar.php">Product Calendar</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Orders</a>
