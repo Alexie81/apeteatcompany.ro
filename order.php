@@ -3,6 +3,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" href="https://www.apeteat.ro/app/themes/apeteat/public/images/favicon.cec87b.svg">
     <script src="js/logged.js"></script>
+
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
 <script type="text/javascript" async="" src="https://analytics.tiktok.com/i18n/pixel/static/identify_7bf75739.js"></script><script type="text/javascript" async="" src="https://analytics.tiktok.com/i18n/pixel/static/main.MWQ2ODQwNTg2MQ.js" data-id="CLOT79JC77UEPOBAV6M0"></script><script type="text/javascript" async="" src="https://www.googletagmanager.com/gtag/js?id=G-K83MLXB7WF&amp;l=dataLayer&amp;cx=c&amp;gtm=45He4b70v9179625218za200"></script><script async="" src="//www.googletagmanager.com/gtag/js?id=G-K83MLXB7WF"></script><script type="text/javascript" async="" src="https://www.googletagmanager.com/gtag/js?id=G-Q18W8XPHHS&amp;l=dataLayer&amp;cx=c&amp;gtm=45He4b70v9179625218za200"></script><script type="text/javascript" async="" src="https://analytics.tiktok.com/i18n/pixel/events.js?sdkid=CLOT79JC77UEPOBAV6M0&amp;lib=ttq"></script><script async="" src="https://chimpstatic.com/mcjs-connected/js/users/8ae7e048868f4254cfbd929aa/140c19d26767dcad15473a049.js"></script><script src="https://connect.facebook.net/signals/config/1520279285182302?v=next&amp;r=stable&amp;domain=www.apeteat.ro&amp;hme=872f04a0547459b3285cb03b0d7a47bfde40628f4b386809918a621e2688602f&amp;ex_m=70%2C121%2C107%2C111%2C61%2C4%2C100%2C69%2C16%2C97%2C89%2C51%2C54%2C172%2C175%2C187%2C183%2C184%2C186%2C29%2C101%2C53%2C77%2C185%2C167%2C170%2C180%2C181%2C188%2C131%2C41%2C189%2C190%2C34%2C143%2C15%2C50%2C195%2C194%2C133%2C18%2C40%2C1%2C43%2C65%2C66%2C67%2C71%2C93%2C17%2C14%2C96%2C92%2C91%2C108%2C52%2C110%2C39%2C109%2C30%2C94%2C26%2C168%2C171%2C140%2C86%2C56%2C84%2C33%2C73%2C0%2C95%2C32%2C28%2C82%2C83%2C88%2C47%2C46%2C87%2C37%2C11%2C12%2C13%2C6%2C7%2C25%2C22%2C23%2C57%2C62%2C64%2C75%2C102%2C27%2C76%2C9%2C8%2C80%2C48%2C21%2C104%2C103%2C105%2C98%2C10%2C20%2C3%2C38%2C74%2C19%2C5%2C90%2C81%2C44%2C35%2C85%2C2%2C36%2C63%2C42%2C106%2C45%2C79%2C68%2C112%2C60%2C59%2C31%2C99%2C58%2C55%2C49%2C78%2C72%2C24%2C113%2C158%2C225%2C226%2C224%2C179%2C138%2C201%2C200%2C202%2C207%2C208%2C209%2C205%2C197%2C132%2C163%2C196%2C198%2C122%2C157%2C145%2C151%2C129%2C233%2C116%2C127%2C234%2C165%2C119%2C236%2C166%2C136%2C123%2C154%2C148%2C193%2C114%2C128" async=""></script><script src="https://connect.facebook.net/signals/config/3643034682635913?v=next&amp;r=stable&amp;domain=www.apeteat.ro&amp;hme=872f04a0547459b3285cb03b0d7a47bfde40628f4b386809918a621e2688602f&amp;ex_m=70%2C121%2C107%2C111%2C61%2C4%2C100%2C69%2C16%2C97%2C89%2C51%2C54%2C172%2C175%2C187%2C183%2C184%2C186%2C29%2C101%2C53%2C77%2C185%2C167%2C170%2C180%2C181%2C188%2C131%2C41%2C189%2C190%2C34%2C143%2C15%2C50%2C195%2C194%2C133%2C18%2C40%2C1%2C43%2C65%2C66%2C67%2C71%2C93%2C17%2C14%2C96%2C92%2C91%2C108%2C52%2C110%2C39%2C109%2C30%2C94%2C26%2C168%2C171%2C140%2C86%2C56%2C84%2C33%2C73%2C0%2C95%2C32%2C28%2C82%2C83%2C88%2C47%2C46%2C87%2C37%2C11%2C12%2C13%2C6%2C7%2C25%2C22%2C23%2C57%2C62%2C64%2C75%2C102%2C27%2C76%2C9%2C8%2C80%2C48%2C21%2C104%2C103%2C105%2C98%2C10%2C20%2C3%2C38%2C74%2C19%2C5%2C90%2C81%2C44%2C35%2C85%2C2%2C36%2C63%2C42%2C106%2C45%2C79%2C68%2C112%2C60%2C59%2C31%2C99%2C58%2C55%2C49%2C78%2C72%2C24%2C113" async=""></script><script src="https://connect.facebook.net/signals/plugins/openbridge3.js?v=next" async=""></script><script async="" src="https://connect.facebook.net/en_US/fbevents.js?v=next"></script><script async="" src="https://www.googletagmanager.com/gtm.js?id=GTM-T48HWKGH"></script><script id="cookieyes" type="text/javascript" src="https://cdn-cookieyes.com/client_data/a7c76a0824d2a2d223504307/script.js"></script><script src="https://cdn-cookieyes.com/client_data/a7c76a0824d2a2d223504307/banner.js" async="" id="cookieyes-banner"></script>    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
                 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -134,7 +135,7 @@ src="https://www.facebook.com/tr?id=3643034682635913&ev=PageView&noscript=1" />
 
                       <nav class="navbar">
       <div class="navbar-logo">
-        <a href="#">
+        <a href="home.html">
           <img src="https://www.apeteat.ro/app/themes/apeteat/public/images/logo.bea222.svg" alt="ApetEat">
         </a>
       </div>
@@ -209,7 +210,8 @@ src="https://www.facebook.com/tr?id=3643034682635913&ev=PageView&noscript=1" />
         
     <div id="step3-orderpage" class="step3-content-orderpage w-[90%] md:w-[70%] relative" style="">
         <h1 id="days-header-orderpage">Personalizare Meniu</h1>
-        <div id="container-days-orderpage" class="md:justify-around"><div class="day selected" id="date0" style="color: rgb(175, 175, 175);"><svg xmlns="http://www.w3.org/2000/svg" width="61" height="69" viewBox="0 0 61 69" fill="none">
+        <div id="container-days-orderpage" style="z-index:2 !important;" class="md:justify-around">
+            <div class="day selected" id="date0" style="color: rgb(175, 175, 175);"><svg xmlns="http://www.w3.org/2000/svg" width="61" height="69" viewBox="0 0 61 69" fill="none">
 <g id="Layer_1" clip-path="url(#clip0_79_186)">
 <path id="Vector" d="M56.8369 44.1319H3.23879C1.96127 44.1319 0.916016 43.0866 0.916016 41.8091C0.916016 40.5316 1.96127 39.4863 3.23879 39.4863H56.8369C58.1144 39.4863 59.1596 40.5316 59.1596 41.8091C59.1596 43.0866 58.1144 44.1319 56.8369 44.1319Z" fill="#D6C053" style="fill: rgb(175, 175, 175);"></path>
 <path id="Vector_2" d="M58.1953 25.7471H4.59719C3.31966 25.7471 2.27441 24.7019 2.27441 23.4243C2.27441 22.1468 3.31966 21.1016 4.59719 21.1016H58.1953C59.4728 21.1016 60.518 22.1468 60.518 23.4243C60.518 24.7019 59.4728 25.7471 58.1953 25.7471Z" fill="#D6C053" style="fill: rgb(175, 175, 175);"></path>
@@ -1404,4 +1406,77 @@ var cart = {"ajaxurl":"https:\/\/www.apeteat.ro\/wp\/wp-admin\/admin-ajax.php"};
 </script>
 <script src="https://www.apeteat.ro/app/themes/apeteat/public/js/802.f35035.js" id="order/0-js"></script>
 <script src="https://www.apeteat.ro/app/themes/apeteat/public/js/35.bdc46f.js" id="order/1-js"></script>
-<script src="https://www.apeteat.ro/app/themes/apeteat/public/js/order.21ec03.js" id="order/2-js"></script>
+<script src="js/comanda2.js" id="order/2-js"></script>
+
+
+<script id="app/0-js-before">
+(() => {
+    "use strict";
+    var e, r = {},
+        o = {};
+
+    function t(e) {
+        var a = o[e];
+        if (void 0 !== a) return a.exports;
+        var n = o[e] = {
+            exports: {}
+        };
+        return r[e].call(n.exports, n, n.exports, t), n.exports
+    }
+    t.m = r, e = [], t.O = (r, o, a, n) => {
+        if (!o) {
+            var l = 1 / 0;
+            for (f = 0; f < e.length; f++) {
+                o = e[f][0], a = e[f][1], n = e[f][2];
+                for (var s = !0, u = 0; u < o.length; u++)(!1 & n || l >= n) && Object.keys(t.O).every((e => t.O[e](o[u]))) ? o.splice(u--, 1) : (s = !1, n < l && (l = n));
+                if (s) {
+                    e.splice(f--, 1);
+                    var i = a();
+                    void 0 !== i && (r = i)
+                }
+            }
+            return r
+        }
+        n = n || 0;
+        for (var f = e.length; f > 0 && e[f - 1][2] > n; f--) e[f] = e[f - 1];
+        e[f] = [o, a, n]
+    }, t.n = e => {
+        var r = e && e.__esModule ? () => e.default : () => e;
+        return t.d(r, {
+            a: r
+        }), r
+    }, t.d = (e, r) => {
+        for (var o in r) t.o(r, o) && !t.o(e, o) && Object.defineProperty(e, o, {
+            enumerable: !0,
+            get: r[o]
+        })
+    }, t.o = (e, r) => Object.prototype.hasOwnProperty.call(e, r), t.r = e => {
+        "undefined" != typeof Symbol && Symbol.toStringTag && Object.defineProperty(e, Symbol.toStringTag, {
+            value: "Module"
+        }), Object.defineProperty(e, "__esModule", {
+            value: !0
+        })
+    }, (() => {
+        var e = {
+            666: 0
+        };
+        t.O.j = r => 0 === e[r];
+        var r = (r, o) => {
+                var a, n, l = o[0],
+                    s = o[1],
+                    u = o[2],
+                    i = 0;
+                if (l.some((r => 0 !== e[r]))) {
+                    for (a in s) t.o(s, a) && (t.m[a] = s[a]);
+                    if (u) var f = u(t)
+                }
+                for (r && r(o); i < l.length; i++) n = l[i], t.o(e, n) && e[n] && e[n][0](), e[n] = 0;
+                return t.O(f)
+            },
+            o = self.webpackChunk_roots_bud_sage_sage = self.webpackChunk_roots_bud_sage_sage || [];
+        o.forEach(r.bind(null, 0)), o.push = r.bind(null, o.push.bind(o))
+    })()
+})();
+</script>
+
+<script src="js/order.js"></script>

@@ -335,10 +335,12 @@
             e === d || t ? (
             function() {
                 let e, t = arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : 1, a = $(".choose-button.selected").data("dates");
+                let dates = [];
                 e = a || u.selectedDates.map((function(e) {
-                    console.log(c,e);
+                    dates.push(e);
                     return e.getFullYear() + "-" + (e.getMonth() + 1).toString().padStart(2, "0") + "-" + e.getDate().toString().padStart(2, "0")
                 }
+                
                 
                 )).join(",")
                 // $.ajax({
@@ -359,6 +361,10 @@
                 //         console.log("Failed to fetch products", e)
                 //     }
                 // })
+                sessionStorage.setItem('dates', JSON.stringify(dates));
+                console.log(JSON.parse(sessionStorage.getItem('dates')), dates);
+                localStorage.setItem('category', c);
+                window.location.href = "order.php"
             }()) : m("V\u0103 rug\u0103m s\u0103 selecta\u021bi num\u0103rul corect de zile sau una dintre recomand\u0103ri.")
         }
         )),
