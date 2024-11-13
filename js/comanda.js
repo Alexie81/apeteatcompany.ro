@@ -344,8 +344,10 @@
             function() {
                 let e, t = arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : 1, a = $(".choose-button.selected").data("dates");
                 let dates = [];
+                let fd = [];
                 e = a || u.selectedDates.map((function(e) {
                     dates.push(e);
+                    fd.push(e.getFullYear() + "-" + (e.getMonth() + 1).toString().padStart(2, "0") + "-" + e.getDate().toString().padStart(2, "0"));
                     return e.getFullYear() + "-" + (e.getMonth() + 1).toString().padStart(2, "0") + "-" + e.getDate().toString().padStart(2, "0")
                 }
                 )).join(",")
@@ -371,7 +373,7 @@
                 sessionStorage.setItem('dates', JSON.stringify(dates));
                 console.log(JSON.parse(sessionStorage.getItem('dates')), dates);
                 localStorage.setItem('category', c);
-                window.location.href = "order.php"
+                window.location.href = "order.php?date="+fd[0];
             }(),
             $("html, body").animate({
                 scrollTop: 0

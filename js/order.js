@@ -20,7 +20,7 @@ $( document ).ready(function() {
       let allDates = [];
     for(let i = 0; i < dates.length; i++) {
         date = new Date(dates[i]);
-        formattedDate = date.getDate() + "." + (date.getMonth() + 1) + "/" + date.getFullYear();
+        formattedDate = date.getFullYear() + "-" + (date.getMonth() + 1) + "-" + date.getDate();
         monthName = months[date.getMonth()];
         allDates.push(date.getDate() + " " + monthName);
         console.log(date.getDate() + " " + monthName);
@@ -50,4 +50,29 @@ $( document ).ready(function() {
         document.getElementById('innerDate8').innerHTML = allDates[8];
         document.getElementById('innerDate9').innerHTML = allDates[9];
     }
+
+    if (document.getElementById("date0").classList.contains("selected")) {
+        let date1 = new Date(dates[0]);
+        let formattedDate1 = date1.getFullYear() + "-" + (date1.getMonth() + 1) + "-" + date1.getDate();
+        document.getElementById('inputDate').value = formattedDate1;
+        console.log("Valoarea din inputDate este: " + document.getElementById('inputDate').value);
+    
+        // Verifică datele serializate
+        console.log("Date serializate pentru trimitere:", $("#formDate").serialize());
+    
+        // $.ajax({
+        //     type: "POST",
+        //     url: window.location.href, // Trimite cererea la aceeași pagină
+        //     data: $("#formDate").serialize(),
+        //     success: function(data) {
+        //         console.log("Răspunsul primit de la server:", data);
+        //         alert("Răspuns de la server: " + data);
+        //     },
+        //     error: function(xhr, status, error) {
+        //         console.error("Eroare AJAX:", error);
+        //     }
+        // });
+    }
+
  });
+ 

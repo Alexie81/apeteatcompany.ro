@@ -336,8 +336,10 @@
             function() {
                 let e, t = arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : 1, a = $(".choose-button.selected").data("dates");
                 let dates = [];
+                let fd = [];
                 e = a || u.selectedDates.map((function(e) {
                     dates.push(e);
+                    fd.push(e.getFullYear() + "-" + (e.getMonth() + 1).toString().padStart(2, "0") + "-" + e.getDate().toString().padStart(2, "0"));
                     return e.getFullYear() + "-" + (e.getMonth() + 1).toString().padStart(2, "0") + "-" + e.getDate().toString().padStart(2, "0")
                 }
                 
@@ -361,10 +363,38 @@
                 //         console.log("Failed to fetch products", e)
                 //     }
                 // })
+
+                console.log("Datele trimise către server:", dates);
+
+// $.ajax({
+//     type: "POST",
+//     url: "order2.php", 
+//     data: {
+//         date: JSON.stringify(fd) // Trimite datele ca un șir JSON
+//     },
+//     success: function(data) {
+//         console.log("Răspunsul primit de la server:", data);
+//         alert("Răspuns de la server: " + data);
+//     },
+//     error: function(xhr, status, error) {
+//         console.error("Eroare AJAX:", error);
+//     }
+// });
                 sessionStorage.setItem('dates', JSON.stringify(dates));
                 console.log(JSON.parse(sessionStorage.getItem('dates')), dates);
                 localStorage.setItem('category', c);
-                window.location.href = "order.php"
+                // Sortăm array-ul fd
+fd.sort((a, b) => {
+    // Convertem datele din stringuri în obiecte Date
+    let dateA = new Date(a);
+    let dateB = new Date(b);
+    
+    // Comparăm datele
+    return dateA - dateB;
+});
+
+                let dates1 = encodeURIComponent(JSON.stringify(fd));
+                window.location.href = "order.php?dates="+dates1+"&category="+c;
             }()) : m("V\u0103 rug\u0103m s\u0103 selecta\u021bi num\u0103rul corect de zile sau una dintre recomand\u0103ri.")
         }
         )),

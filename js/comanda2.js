@@ -368,10 +368,11 @@
                 //         console.log("Failed to fetch products", e)
                 //     }
                 // })
+                
                 sessionStorage.setItem('dates', JSON.stringify(dates));
                 console.log(JSON.parse(sessionStorage.getItem('dates')), dates);
                 localStorage.setItem('category', c);
-                window.location.href = "order.php"
+                window.location.href = "order.php?date="+dates[0];
             }(),
             $("html, body").animate({
                 scrollTop: 0
