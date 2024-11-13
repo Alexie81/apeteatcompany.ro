@@ -392,9 +392,9 @@
                 });
                 sessionStorage.setItem('dates', JSON.stringify(dates));
                 console.log(JSON.parse(sessionStorage.getItem('dates')), dates);
-                localStorage.setItem('category', c);
+                localStorage.setItem('category', o);
                 let dates1 = encodeURIComponent(JSON.stringify(fd));
-                window.location.href = "order.php?dates="+dates1+"&category="+c;
+                window.location.href = "order.php?dates="+dates1+"&category="+o;
             }(),
             $("html, body").animate({
                 scrollTop: 0
