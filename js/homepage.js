@@ -380,18 +380,29 @@
 //         console.error("Eroare AJAX:", error);
 //     }
 // });
+                                // Sortăm array-ul fd
+                dates.sort((a, b) => {
+                    // Convertem datele din stringuri în obiecte Date
+                    let dateA = new Date(a);
+                    let dateB = new Date(b);
+                    
+                    // Comparăm datele
+                    return dateA - dateB;
+                });
                 sessionStorage.setItem('dates', JSON.stringify(dates));
                 console.log(JSON.parse(sessionStorage.getItem('dates')), dates);
                 localStorage.setItem('category', c);
-                // Sortăm array-ul fd
-fd.sort((a, b) => {
-    // Convertem datele din stringuri în obiecte Date
-    let dateA = new Date(a);
-    let dateB = new Date(b);
-    
-    // Comparăm datele
-    return dateA - dateB;
-});
+                                // Sortăm array-ul fd
+                fd.sort((a, b) => {
+                    // Convertem datele din stringuri în obiecte Date
+                    let dateA = new Date(a);
+                    let dateB = new Date(b);
+                    
+                    // Comparăm datele
+                    return dateA - dateB;
+                });
+
+                
 
                 let dates1 = encodeURIComponent(JSON.stringify(fd));
                 window.location.href = "order.php?dates="+dates1+"&category="+c;
