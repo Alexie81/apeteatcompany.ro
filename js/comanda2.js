@@ -338,45 +338,7 @@
         }
         )),
         jQuery("#next-step2").click((function() {
-            let e = u.selectedDates.length
-              , t = void 0 !== $(".choose-button.selected").data("dates");
-            e === d || t ? (jQuery("#step2-orderpage").hide(),
-            function() {
-                let e, t = arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : 1, a = $(".choose-button.selected").data("dates");
-                let dates = [];
-                e = a || u.selectedDates.map((function(e) {
-                    dates.push(e);
-                    return e.getFullYear() + "-" + (e.getMonth() + 1).toString().padStart(2, "0") + "-" + e.getDate().toString().padStart(2, "0")
-                }
-                )).join(",")
-                // $.ajax({
-                //     url: window.fetchProducts.ajaxurl,
-                //     type: "POST",
-                //     data: {
-                //         action: "fetchProducts",
-                //         dates: e,
-                //         dayNo: t,
-                //         categorySlug: o
-                //     },
-                //     success: function(e) {
-                //         m = e,
-                //         jQuery("#step2-orderpage").hide(),
-                //         jQuery("#step3-orderpage").show(),
-                //         f()
-                //     },
-                //     error: function(e) {
-                //         console.log("Failed to fetch products", e)
-                //     }
-                // })
-                
-                sessionStorage.setItem('dates', JSON.stringify(dates));
-                console.log(JSON.parse(sessionStorage.getItem('dates')), dates);
-                localStorage.setItem('category', c);
-                window.location.href = "order.php?date="+dates[0];
-            }(),
-            $("html, body").animate({
-                scrollTop: 0
-            }, "slow")) : p("V\u0103 rug\u0103m s\u0103 selecta\u021bi num\u0103rul corect de zile sau una dintre recomand\u0103ri.")
+            
         }
         )),
         jQuery(document).on("click", ".modify-btn", (function() {

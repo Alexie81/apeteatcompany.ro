@@ -370,10 +370,31 @@
                 //         console.log("Failed to fetch products", e)
                 //     }
                 // })
+                dates.sort((a, b) => {
+                    // Convertem datele din stringuri în obiecte Date
+                    let dateA = new Date(a);
+                    let dateB = new Date(b);
+                    
+                    // Comparăm datele
+                    return dateA - dateB;
+                });
                 sessionStorage.setItem('dates', JSON.stringify(dates));
                 console.log(JSON.parse(sessionStorage.getItem('dates')), dates);
                 localStorage.setItem('category', c);
-                window.location.href = "order.php?date="+fd[0];
+                                // Sortăm array-ul fd
+                fd.sort((a, b) => {
+                    // Convertem datele din stringuri în obiecte Date
+                    let dateA = new Date(a);
+                    let dateB = new Date(b);
+                    
+                    // Comparăm datele
+                    return dateA - dateB;
+                });
+                sessionStorage.setItem('dates', JSON.stringify(dates));
+                console.log(JSON.parse(sessionStorage.getItem('dates')), dates);
+                localStorage.setItem('category', c);
+                let dates1 = encodeURIComponent(JSON.stringify(fd));
+                window.location.href = "order.php?dates="+dates1+"&category="+c;
             }(),
             $("html, body").animate({
                 scrollTop: 0
