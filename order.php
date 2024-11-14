@@ -5292,6 +5292,7 @@
         }
       }
     </style>
+    <script src="js/order.js"></script>
   </head>
   <body class="page-template page-template-template-order page page-id-631 wp-embed-responsive theme-apeteat woocommerce-js comanda">
     <div class="cky-consent-container cky-hide cky-classic-bottom" tabindex="0">
@@ -5834,7 +5835,7 @@
       <div id="step3-orderpage" class="step3-content-orderpage w-[90%] md:w-[70%] relative" style="">
         <h1 id="days-header-orderpage">Personalizare Meniu</h1>
         <div id="container-days-orderpage" style="z-index:2 !important;" class="md:justify-around">
-          <div class="day selected" id="date0" style="color: rgb(175, 175, 175);">
+          <div class="day selected day_select" id="date0" onclick="selectDay(this)" style="color: rgb(175, 175, 175);">
             <svg xmlns="http://www.w3.org/2000/svg" width="61" height="69" viewBox="0 0 61 69" fill="none">
               <g id="Layer_1" clip-path="url(#clip0_79_186)">
                 <path id="Vector" d="M56.8369 44.1319H3.23879C1.96127 44.1319 0.916016 43.0866 0.916016 41.8091C0.916016 40.5316 1.96127 39.4863 3.23879 39.4863H56.8369C58.1144 39.4863 59.1596 40.5316 59.1596 41.8091C59.1596 43.0866 58.1144 44.1319 56.8369 44.1319Z" fill="#D6C053" style="fill: rgb(175, 175, 175);"></path>
@@ -5860,7 +5861,7 @@
             </svg>
             <div class="date" id="innerDate0"></div>
           </div>
-          <div class="day " id="date1" style="color: rgb(175, 175, 175);">
+          <div class="day day_select" id="date1" onclick="selectDay(this)" style="color: rgb(175, 175, 175);">
             <svg xmlns="http://www.w3.org/2000/svg" width="59" height="67" viewBox="0 0 59 67" fill="none">
               <g clip-path="url(#clip0_79_205)">
                 <path d="M23.8963 20.7173C22.6885 20.7173 21.7129 21.6929 21.7129 22.9007C21.7129 24.1085 22.6885 25.0841 23.8963 25.0841C25.1041 25.0841 26.0797 24.1085 26.0797 22.9007C26.0797 21.6929 25.1041 20.7173 23.8963 20.7173Z" fill="#E1BD06" style="fill: rgb(175, 175, 175);"></path>
@@ -5875,7 +5876,7 @@
             </svg>
             <div class="date" id="innerDate1"></div>
           </div>
-          <div class="day " id="date2" style="color: rgb(175, 175, 175);">
+          <div class="day day_select" id="date2" onclick="selectDay(this)" style="color: rgb(175, 175, 175);">
             <svg xmlns="http://www.w3.org/2000/svg" width="62" height="60" viewBox="0 0 62 60" fill="none">
               <g clip-path="url(#clip0_79_211)">
                 <path d="M44.321 46.35L42.7764 41.9716C50.4299 39.2655 55.18 34.3529 55.18 29.1382C55.18 25.1198 52.4623 22.1002 50.1976 20.2884L53.1011 16.6649C57.4447 20.1375 59.8372 24.5624 59.8372 29.1498C59.8372 36.3853 53.8909 42.982 44.3326 46.3616L44.321 46.35Z" fill="#AFAFAF" style="fill: rgb(175, 175, 175);"></path>
@@ -5892,7 +5893,7 @@
             </svg>
             <div class="date" id="innerDate2"></div>
           </div>
-          <div class="day " id="date3" style="color: rgb(175, 175, 175);">
+          <div class="day day_select" id="date3" onclick="selectDay(this)" style="color: rgb(175, 175, 175);">
             <svg xmlns="http://www.w3.org/2000/svg" width="62" height="67" viewBox="0 0 62 67" fill="none">
               <g clip-path="url(#clip0_79_220)">
                 <path d="M23.4971 59.6002L59.9763 23.121C61.788 24.9327 61.788 27.871 59.9763 29.6944L30.0705 59.6002C28.2588 61.4119 25.3204 61.4119 23.4971 59.6002Z" fill="#AFAFAF" style="fill: rgb(175, 175, 175);"></path>
@@ -5908,7 +5909,7 @@
             </svg>
             <div class="date" id="innerDate3"></div>
           </div>
-          <div class="day " id="date4" style="color: rgb(175, 175, 175);">
+          <div class="day day_select" id="date4" onclick="selectDay(this)" style="color: rgb(175, 175, 175);">
             <svg xmlns="http://www.w3.org/2000/svg" width="57" height="57" viewBox="0 0 57 57" fill="none">
               <g clip-path="url(#clip0_79_227)">
                 <path d="M55.6929 21.768C55.1471 21.2105 54.3922 20.897 53.614 20.897H3.37239C2.59426 20.897 1.82774 21.2222 1.28189 21.7796C0.736036 22.3255 0.434075 23.092 0.457303 23.8701C0.805719 38.9682 13.3836 51.2557 28.4932 51.2557C43.6029 51.2557 56.1807 38.9682 56.5291 23.8585C56.5407 23.0804 56.2388 22.3139 55.6929 21.768ZM28.4932 46.6101C19.4112 46.6101 11.4324 41.2793 7.565 33.6026H33.0342C33.9982 33.6026 34.7763 32.8244 34.7763 31.8605C34.7763 30.8965 33.9982 30.1184 33.0342 30.1184H6.15972C5.69516 28.6434 5.36998 27.122 5.20738 25.5425H51.7674C50.5828 37.319 40.4904 46.6217 28.4816 46.6217L28.4932 46.6101Z" fill="#AFAFAF" style="fill: rgb(175, 175, 175);"></path>
@@ -5923,7 +5924,7 @@
             </svg>
             <div class="date" id="innerDate4"></div>
           </div>
-          <div class="day " id="date5" style="color: rgb(175, 175, 175);">
+          <div class="day day_select" id="date5" onclick="selectDay(this)" style="color: rgb(175, 175, 175);">
             <svg xmlns="http://www.w3.org/2000/svg" width="60" height="64" viewBox="0 0 60 64" fill="none">
               <g clip-path="url(#clip0_79_233)">
                 <path d="M37.2118 19.3214C37.2118 20.7615 36.0504 21.9229 34.6103 21.9229C33.1702 21.9229 32.0088 20.7615 32.0088 19.3214C32.0088 17.8812 33.1702 16.7198 34.6103 16.7198C36.0504 16.7198 37.2118 17.8812 37.2118 19.3214Z" fill="#AFAFAF" style="fill: rgb(175, 175, 175);"></path>
@@ -5944,7 +5945,7 @@
             </svg>
             <div class="date" id="innerDate5"></div>
           </div>
-          <div class="day " id="date6" style="color: rgb(175, 175, 175);">
+          <div class="day day_select" id="date6" onclick="selectDay(this)" style="color: rgb(175, 175, 175);">
             <svg xmlns="http://www.w3.org/2000/svg" width="64" height="68" viewBox="0 0 64 68" fill="none">
               <g clip-path="url(#clip0_79_245)">
                 <path d="M62.8565 17.1052L61.4164 15.6651L60.5337 14.7824L56.3411 10.5898L53.577 7.82572L52.6943 6.94306L49.3728 3.62149L45.726 -0.0252686L44.6111 0.207009C44.2162 0.265079 43.8213 0.311534 43.4265 0.334762C42.2767 0.404445 41.1617 0.590267 40.07 0.880614C37.2595 1.6239 34.6928 3.08725 32.6139 5.16614C29.7337 8.04638 28.0148 11.8906 27.7826 15.9787C27.6083 18.9286 26.3773 21.7043 24.2984 23.7716C22.2195 25.8505 19.4554 27.0815 16.5055 27.2441C12.4174 27.4764 8.57319 29.1953 5.69295 32.0755C3.96248 33.806 2.65011 35.8965 1.83714 38.1844C1.32613 39.6129 1.00094 41.1111 0.884798 42.6558L0.780273 43.701L4.6477 47.5684L7.76022 50.6809L8.53835 51.4591L11.6276 54.5484L15.5996 58.5203L16.3777 59.2984L18.0037 60.9244C18.6657 61.5864 19.827 61.2728 20.0129 60.3437C20.1638 59.5772 20.2684 58.799 20.3148 58.0093L20.3381 57.8235C20.3613 57.5099 20.3961 57.208 20.4426 56.9176C20.6168 55.7446 20.942 54.5832 21.453 53.5147C23.3925 49.4499 27.3064 46.9529 31.6035 46.709C35.6916 46.4767 39.5358 44.7579 42.416 41.8776C45.2963 38.9974 47.0151 35.1532 47.2474 31.0651C47.4216 28.1152 48.6527 25.3395 50.7316 23.2722C52.8105 21.1933 55.5746 19.9622 58.5245 19.788C58.6639 19.788 58.8148 19.7648 58.9542 19.7532C59.3375 19.7183 59.7323 19.6719 60.1621 19.6138C60.9286 19.4977 61.6835 19.3235 62.4035 19.1028C63.263 18.8473 63.5069 17.744 62.8797 17.1168L62.8565 17.1052ZM47.4216 19.9738C44.5414 22.8541 42.8225 26.6983 42.5903 30.7864C42.416 33.7363 41.185 36.512 39.1061 38.5793C37.0272 40.6582 34.2631 41.8892 31.3132 42.0634C27.2251 42.2957 23.3809 44.0146 20.5006 46.8948C18.7702 48.6253 17.4578 50.7158 16.6448 53.0037L12.6032 48.9621C12.6032 48.9621 12.6264 48.8808 12.6264 48.8343L8.84031 45.0714C8.84031 45.0714 8.81708 45.1295 8.80547 45.1643L5.63488 41.9938C6.02975 39.4852 7.19114 37.1624 8.97967 35.3738C11.0586 33.295 13.8227 32.0639 16.7726 31.8897C20.8723 31.6574 24.7049 29.9385 27.5851 27.0583C30.4654 24.1781 32.1842 20.3339 32.4165 16.2458C32.5907 13.2959 33.8218 10.5201 35.9007 8.45287C37.9795 6.37398 40.7436 5.14291 43.6936 4.9687C43.8329 4.9687 43.9839 4.94547 44.1233 4.93386L46.5622 7.37277L46.6319 7.44246L47.0384 7.84894L51.0916 11.9022L51.2194 12.0299L54.8777 15.6883C52.0672 16.4316 49.5005 17.895 47.4216 19.9738Z" fill="#AFAFAF" style="fill: rgb(175, 175, 175);"></path>
@@ -5958,7 +5959,7 @@
             </svg>
             <div class="date" id="innerDate6"></div>
           </div>
-          <div class="day " id="date7" style="color: rgb(175, 175, 175);">
+          <div class="day day_select" id="date7"onclick="selectDay(this)" style="color: rgb(175, 175, 175);">
             <svg xmlns="http://www.w3.org/2000/svg" width="33" height="66" viewBox="0 0 33 66" fill="none">
               <g clip-path="url(#clip0_79_250)">
                 <path d="M26.0518 59.286H6.92376C5.01909 59.286 3.4396 57.7994 3.33507 55.9063L0.0599583 21.0299C0.00188887 20.0194 0.350305 19.102 1.03552 18.4516C1.70913 17.8012 2.63824 17.4876 3.56735 17.5921C5.12361 17.7199 27.8055 17.7199 29.4199 17.5921C30.3374 17.4992 31.2665 17.8128 31.9401 18.4516C32.6137 19.102 32.9737 20.0078 32.9156 20.9486L29.6405 55.976C29.536 57.7994 27.9565 59.286 26.0518 59.286ZM25.0182 55.5579C25.0182 55.5579 25.0182 55.6044 25.0182 55.6276V55.5579ZM7.9574 55.4999V55.5579C7.9574 55.5579 7.9574 55.5231 7.9574 55.4999ZM7.8761 54.652H25.0995L28.1307 22.2842C23.2064 22.3655 9.76916 22.3655 4.84488 22.2842L7.8761 54.652ZM3.07957 22.2145C3.07957 22.2145 3.09118 22.2145 3.1028 22.2145C3.1028 22.2145 3.09118 22.2145 3.07957 22.2145ZM29.896 22.2145C29.896 22.2145 29.8844 22.2145 29.8728 22.2145C29.8728 22.2145 29.8844 22.2145 29.896 22.2145Z" fill="#AFAFAF" style="fill: rgb(175, 175, 175);"></path>
@@ -5977,7 +5978,7 @@
             </svg>
             <div class="date" id="innerDate7"></div>
           </div>
-          <div class="day " id="date8" style="color: rgb(175, 175, 175);">
+          <div class="day day_select" id="date8" onclick="selectDay(this)" style="color: rgb(175, 175, 175);">
             <svg xmlns="http://www.w3.org/2000/svg" width="54" height="59" viewBox="0 0 54 59" fill="none">
               <g clip-path="url(#clip0_79_260)">
                 <path d="M6.90767 50.4034L30.0658 1.34639C30.4722 0.475349 31.5175 0.103705 32.3885 0.510191C33.2596 0.916676 33.6312 1.96193 33.2247 2.83297L10.055 51.89C9.64855 52.7611 8.6033 53.1327 7.73225 52.7262C6.86121 52.3197 6.48957 51.2745 6.89605 50.4034H6.90767Z" fill="#AFAFAF" style="fill: rgb(175, 175, 175);"></path>
@@ -5993,7 +5994,7 @@
             </svg>
             <div class="date" id="innerDate8"></div>
           </div>
-          <div class="day " id="date9" style="color: rgb(175, 175, 175);">
+          <div class="day day_select" id="date9" onclick="selectDay(this)" style="color: rgb(175, 175, 175);">
             <svg xmlns="http://www.w3.org/2000/svg" width="64" height="70" viewBox="0 0 64 70" fill="none">
               <g clip-path="url(#clip0_79_267)">
                 <path d="M63.6632 31.6182C63.6632 14.3252 49.5988 0.260742 32.3057 0.260742C21.5861 0.260742 11.7143 5.6612 5.90737 14.6968C4.30465 17.1822 3.07358 19.8766 2.23738 22.6988C1.37796 25.6022 0.948242 28.5986 0.948242 31.6182C0.948242 48.9113 15.0127 62.9757 32.3057 62.9757C41.9917 62.9757 50.9925 58.5973 56.9852 50.9437C59.2035 48.1099 60.9107 44.951 62.0373 41.5481C63.1057 38.3311 63.6516 34.9863 63.6516 31.6066L63.6632 31.6182ZM32.3057 4.9063C47.0321 4.9063 59.0177 16.8918 59.0177 31.6182C59.0177 32.0131 58.9828 32.408 58.9712 32.8145C58.646 32.466 58.3092 32.1176 57.9376 31.804C55.4522 29.6671 52.2932 28.6102 49.0297 28.8541C47.5896 28.9586 46.2192 29.3187 44.9532 29.8878C44.0938 23.6627 38.763 18.8546 32.3057 18.8546C28.4499 18.8546 24.838 20.5734 22.3991 23.5698C21.1912 25.0564 20.355 26.8101 19.9137 28.6799C18.6013 30.062 16.8593 30.8982 14.9546 31.0375C10.7736 31.3395 7.11521 28.1805 6.80164 23.9995C6.80164 23.9066 6.80164 23.8253 6.80164 23.7324C7.51009 21.4445 8.52049 19.2611 9.82125 17.2286C14.7688 9.52862 23.1772 4.92952 32.3057 4.92952V4.9063ZM22.0274 29.8065L24.3154 30.2129C24.5593 28.8541 25.14 27.565 26.011 26.5081C27.5673 24.6034 29.8552 23.5117 32.3173 23.5117C36.8003 23.5117 40.4471 27.1585 40.4471 31.6415C40.4471 32.466 40.3193 33.2674 40.087 34.0455C39.7851 35.0327 39.2857 35.9502 38.6237 36.7632C37.0674 38.6679 34.7679 39.7596 32.3173 39.7596C27.8344 39.7596 24.1876 36.1128 24.1876 31.6298C24.1876 31.1885 24.2341 30.724 24.327 30.2129L22.0391 29.8065H22.0274ZM53.3385 48.0867C48.2284 54.6021 40.5632 58.3302 32.3173 58.3302C17.6955 58.3302 5.79123 46.5188 5.61702 31.9434C7.8585 34.2546 10.9943 35.6947 14.4087 35.6947C14.7107 35.6947 15.0127 35.6947 15.3146 35.6599C16.9289 35.5437 18.462 35.114 19.8673 34.4172C21.1448 40.1196 26.2433 44.3935 32.329 44.3935C36.1848 44.3935 39.7967 42.6746 42.2356 39.6783C43.1531 38.5517 43.8499 37.2858 44.3377 35.9386C45.6617 34.4985 47.4386 33.6158 49.3897 33.4764C51.4106 33.3255 53.3849 33.9758 54.918 35.3114C56.4394 36.6238 57.3569 38.4356 57.5195 40.4332C56.5555 43.1857 55.1618 45.7639 53.3501 48.0751L53.3385 48.0867Z" fill="#AFAFAF" style="fill: rgb(175, 175, 175);"></path>
@@ -6022,80 +6023,115 @@
         <div class="meal mb-6">
             <h3 class="mb-3">Mic dejun</h3>
             <div class="dishes flex flex-col-1 md:flex-col-3 flex-col md:flex-row flex-wrap gap-3">
-        
             <?php
-if (isset($_GET['dates'])) {
-    $dates = json_decode($_GET['dates'], true);
-    // Afișează datele
-    echo "Datele primite din URL: <br>";
-    print_r($dates);
-} else {
-    echo "Nu au fost primite date din order2.php.";
-}
-?>
+            // Setează un cookie din PHP
+// setcookie("date0Selected", "true", time() + 3600, "/"); // Expiră în 1 oră
 
+// Verifică dacă cookie-ul este setat
+// Check if the cookie is set
+
+            ?>
+            <?php
+            require_once('config.php');
+
+
+              if (isset($_GET['dates'])) {
+                $dates = json_decode($_GET['dates'], true);
+                $categoryURL  = $_GET['category'];
+                $category = "Mic Dejun";
+                // Afișează datele
+                $sql = "SELECT * FROM products JOIN product_calendar ON products.id = product_calendar.product_id WHERE product_calendar.date = ? AND products.category = ?";
+                $stmt = $con->prepare($sql);
+                if ($_COOKIE['date0Selected']=='true') {
+                  echo "ok";
+                $stmt->bind_param("ss", $dates[0], $category);
+                
+                } else if($_COOKIE['date1Selected']==='true') {
+                  echo "ok";
+                $stmt->bind_param("ss", $dates[1], $category);
+                }
+                
+                //  else if($_COOKIE['date1Selected']=='true') {
+                //   $stmt->bind_param("ss", $dates[1], $category);
+                // } else if($_COOKIE['date2Selected']) {
+                //   $stmt->bind_param("ss", $dates[2], $category);
+                // } else if($_COOKIE['date3Selected']) {
+                //   $stmt->bind_param("ss", $dates[3], $category);
+                // } else if($_COOKIE['date4Selected']) {
+                //   $stmt->bind_param("ss", $dates[4], $category);
+                // } else if($_COOKIE['date5Selected']) {
+                //   $stmt->bind_param("ss", $dates[5], $category);
+                // } else if($_COOKIE['date6Selected']) {
+                //   $stmt->bind_param("ss", $dates[6], $category);
+                // } else if($_COOKIE['date7Selected']) {
+                //   $stmt->bind_param("ss", $dates[7], $category);
+                // } else if($_COOKIE['date8Selected']) {
+                //   $stmt->bind_param("ss", $dates[8], $category);
+                // } else if($_COOKIE['date9Selected']) {
+                //   $stmt->bind_param("ss", $dates[9], $category);
+                // }
+                $stmt->execute();
+                $resultProducts = $stmt->get_result();
+                if ($resultProducts->num_rows > 0) {
+                  while ($product = $resultProducts->fetch_assoc()) {
+                    echo '
+                 
+                    <div class="dish-card-orderpage basis-0 grow mic-dejun" data-meal-type="Mic dejun" data-dish-name="'.$product['name'].'" data-day="20241114" data-menuid="96" data-productid="302" data-index="0" onclick="select_mic_dejun(this)">
+                   <div class="info-image md:hidden" data-toggle-modal="modal-micdejun-0">
+                     <img src="https://www.apeteat.ro/app/themes/apeteat/public/images/info.11c3e5.png" alt="Informations">
+                   </div>
+                   <img src="'.$product['image_url'].'" alt="'.$product['name'].'" class="dish-image-orderpage">
+                   <div class="dish-card-orderpage-text pt-[15px] pb-[40px] pr-[18px]">
+                     <h4 class="text-xs md:text-[20px] color-[#333] font-bold mb-[15px]">'.$product['name'].'</h4>
+                     <span class="text-xs md:text-[20px] color-[#333] font-bold">'.$product['weight'].'g</span>
+                     <div class="my-3 cursor-pointer info-modal hidden md:block" data-toggle-modal="modal-micdejun-0">
+                       <img class="w-14px h-14px inline-block" src="https://www.apeteat.ro/app/themes/apeteat/public/images/info.11c3e5.png" alt="Informations">
+                       <p class="ingredients inline-block"> Vezi nutrienti si ingredientele... </p>
+                     </div>
+                   </div>
+                   <div class="selected-dish-orderpage" onclick="select_mic_dejun_button(this)">
+                     <div class="horizontal"></div>
+                     <div class="vertical"></div>
+                   </div>
+                   </div>
+                    
+                    
+                    ';
+                  }
+              } else {
+                //  echo '
+                 
+                //  <div class="dish-card-orderpage basis-0 grow" data-meal-type="Mic dejun" data-dish-name="Macaroane dulci cu branza" data-day="20241114" data-menuid="96" data-productid="302" data-index="0">
+                // <div class="info-image md:hidden" data-toggle-modal="modal-micdejun-0">
+                //   <img src="https://www.apeteat.ro/app/themes/apeteat/public/images/info.11c3e5.png" alt="Informations">
+                // </div>
+                // <img src="'.$product['image_url'].'" alt="Macaroane dulci cu branza" class="dish-image-orderpage">
+                // <div class="dish-card-orderpage-text pt-[15px] pb-[40px] pr-[18px]">
+                //   <h4 class="text-xs md:text-[20px] color-[#333] font-bold mb-[15px]">Macaroane dulci cu branza</h4>
+                //   <span class="text-xs md:text-[20px] color-[#333] font-bold">200g</span>
+                //   <div class="my-3 cursor-pointer info-modal hidden md:block" data-toggle-modal="modal-micdejun-0">
+                //     <img class="w-14px h-14px inline-block" src="https://www.apeteat.ro/app/themes/apeteat/public/images/info.11c3e5.png" alt="Informations">
+                //     <p class="ingredients inline-block"> Vezi nutrienti si ingredientele... </p>
+                //   </div>
+                // </div>
+                // <div class="selected-dish-orderpage">
+                //   <div class="horizontal"></div>
+                //   <div class="vertical"></div>
+                // </div>
+                // </div>
+                 
+                 
+                //  ';
+              }
+              } else {
+                echo "Nu au fost primite date din order2.php.";
+              }
+            ?>
+<!-- 
 <form method="POST" id="formDate">
     <input type="hidden" name="date" id="inputDate" />
-</form>
-            <div class="dish-card-orderpage basis-0 grow" data-meal-type="Mic dejun" data-dish-name="Macaroane dulci cu branza" data-day="20241114" data-menuid="96" data-productid="302" data-index="0">
-                <div class="info-image md:hidden" data-toggle-modal="modal-micdejun-0">
-                  <img src="https://www.apeteat.ro/app/themes/apeteat/public/images/info.11c3e5.png" alt="Informations">
-                </div>
-                <img src="https://www.apeteat.ro/app/uploads/2023/10/macaroane-cu-branza-134x134.jpg" alt="Macaroane dulci cu branza" class="dish-image-orderpage">
-                <div class="dish-card-orderpage-text pt-[15px] pb-[40px] pr-[18px]">
-                  <h4 class="text-xs md:text-[20px] color-[#333] font-bold mb-[15px]">Macaroane dulci cu branza</h4>
-                  <span class="text-xs md:text-[20px] color-[#333] font-bold">200g</span>
-                  <div class="my-3 cursor-pointer info-modal hidden md:block" data-toggle-modal="modal-micdejun-0">
-                    <img class="w-14px h-14px inline-block" src="https://www.apeteat.ro/app/themes/apeteat/public/images/info.11c3e5.png" alt="Informations">
-                    <p class="ingredients inline-block"> Vezi nutrienti si ingredientele... </p>
-                  </div>
-                </div>
-                <div class="selected-dish-orderpage">
-                  <div class="horizontal"></div>
-                  <div class="vertical"></div>
-                </div>
-                <!-- <div class="modal-info fixed top-0 left-0 right-0 p-0 bg-black/50 md:p-4 md:inset-0 h-[calc(100%-1rem)] overflow-x-hidden overflow-y-auto max-h-full z-[9999] justify-center items-center flex" id="modal-micdejun-0" style="display: none;">
-                  <div class="modal-content-info  bg-[#f9f9f9] relative w-full max-w-md">
-                    <div class="close-button-info" data-close-modal="modal-micdejun-0">
-                      <div></div>
-                      <div></div>
-                    </div>
-                    <img src="https://www.apeteat.ro/app/uploads/2023/10/macaroane-cu-branza-345x106.jpg" alt="Macaroane dulci cu branza" class="modal-info-image">
-                    <h3 class="meal-title text-[50px] text-[#333] pl-4">Mic dejun</h3>
-                    <p class="meal-ingredients text-sm pl-4">PENE ALBE, URDA, BRANZA DULCE DE VACI, OUA, SMANTANA LICHIDA, LAPTE DE VACA 3.5% GRASIME, stafide aurii, zahar alb, extract de vanilie</p>
-                    <div class="nutritional-info pl-4 text-xs">
-                      <div class="">
-                        <span class="text-[#959393]">Energie: </span>
-                        <span class="text-[#333]">352.2/13670.72 kcal / kJ</span>
-                      </div>
-                      <div class="">
-                        <span class="text-[#959393]">Carbs / Zaharuri: </span>
-                        <span class="text-[#333]">41/9.79 g</span>
-                      </div>
-                      <div class="">
-                        <span class="text-[#959393]">Proteine: </span>
-                        <span class="text-[#333]">17.25 g</span>
-                      </div>
-                      <div class="">
-                        <span class="text-[#959393]">Grasimi/Grasimi saturate: </span>
-                        <span class="text-[#333]">10/2.1 g</span>
-                      </div>
-                      <div class="">
-                        <span class="text-[#959393]">Fibre: </span>
-                        <span class="text-[#333]">1.2 g</span>
-                      </div>
-                      <div class="">
-                        <span class="text-[#959393]">Sare: </span>
-                        <span class="text-[#333]">0.55 g</span>
-                      </div>
-                      <div class="allergens">
-                        <h2 class="text-[#333]">Alergeni</h2>
-                        <p>Lapte, Oua, Gluten</p>
-                      </div>
-                    </div>
-                  </div>
-                </div> -->
-              </div>
+</form> -->
+            
 
 
 
@@ -6108,7 +6144,8 @@ if (isset($_GET['dates'])) {
 
 
 
-              <div class="dish-card-orderpage basis-0 grow selected" data-meal-type="Mic dejun" data-dish-name="Smoothie cu afine si fulgi de ovaz" data-day="20241114" data-menuid="96" data-productid="304" data-index="1">
+
+              <!-- <div class="dish-card-orderpage basis-0 grow selected" data-meal-type="Mic dejun" data-dish-name="Smoothie cu afine si fulgi de ovaz" data-day="20241114" data-menuid="96" data-productid="304" data-index="1">
                 <div class="info-image md:hidden" data-toggle-modal="modal-micdejun-1">
                   <img src="https://www.apeteat.ro/app/themes/apeteat/public/images/info.11c3e5.png" alt="Informations">
                 </div>
@@ -6166,8 +6203,8 @@ if (isset($_GET['dates'])) {
                     </div>
                   </div>
                 </div>
-              </div>
-              <div class="dish-card-orderpage basis-0 grow" data-meal-type="Mic dejun" data-dish-name="Oua fierte, branza si rosii" data-day="20241114" data-menuid="96" data-productid="306" data-index="2">
+              </div> -->
+              <!-- <div class="dish-card-orderpage basis-0 grow" data-meal-type="Mic dejun" data-dish-name="Oua fierte, branza si rosii" data-day="20241114" data-menuid="96" data-productid="306" data-index="2">
                 <div class="info-image md:hidden" data-toggle-modal="modal-micdejun-2">
                   <img src="https://www.apeteat.ro/app/themes/apeteat/public/images/info.11c3e5.png" alt="Informations">
                 </div>
@@ -6227,7 +6264,7 @@ if (isset($_GET['dates'])) {
                 </div>
               </div>
             </div>
-          </div>
+          </div> -->
           <div class="meal mb-6">
             <h3 class="mb-3">Pranz Felul 1</h3>
             <div class="dishes flex flex-col-1 md:flex-col-3 flex-col md:flex-row flex-wrap gap-3">
@@ -7130,4 +7167,4 @@ if (isset($_GET['dates'])) {
           o.forEach(r.bind(null, 0)), o.push = r.bind(null, o.push.bind(o))
         })()
       })();
-    </script><script src="js/order.js"></script>
+    </script>
